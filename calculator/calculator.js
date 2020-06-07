@@ -7,7 +7,7 @@ function subtract (x, y) {
 }
 
 function sum (arr) {
-	finalSum = 0;
+	var finalSum = 0;
 
 	for (i = 0; i < arr.length; i++) {
 		finalSum += arr[i];
@@ -16,8 +16,14 @@ function sum (arr) {
 	return finalSum;
 }
 
-function multiply () {
-	
+function multiply (arr) {
+	var finalProduct = 1;
+
+	for (i = 0; i < arr.length; i++) {
+		finalProduct *= arr[i];
+	}
+
+	return finalProduct;
 }
 
 function power() {
