@@ -26,8 +26,8 @@ function multiply (arr) {
 	return finalProduct;
 }
 
-function power() {
-	
+function power(x, y) {
+	return Math.pow(x, y);
 }
 
 function factorial() {
