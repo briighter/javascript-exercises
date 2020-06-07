@@ -6,8 +6,14 @@ function subtract (x, y) {
 	return x - y;
 }
 
-function sum () {
-	
+function sum (arr) {
+	finalSum = 0;
+
+	for (i = 0; i < arr.length; i++) {
+		finalSum += arr[i];
+	}
+
+	return finalSum;
 }
 
 function multiply () {
